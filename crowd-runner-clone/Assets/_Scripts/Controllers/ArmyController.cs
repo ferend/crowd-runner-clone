@@ -15,7 +15,7 @@ namespace _Scripts.Controllers
             private ObjectPool<GameObject> _pool;
             [SerializeField] private bool usePool;
             
-            [SerializeField] private Cat _catUnit;
+            [SerializeField] private Player _catUnit;
             
             private readonly List<GameObject> _spawnedUnits = new List<GameObject>();
             private List<Vector3> _points = new List<Vector3>();
@@ -55,9 +55,9 @@ namespace _Scripts.Controllers
                     200);
             }
 
-            private Cat CreateCatUnit()
+            private Player CreateCatUnit()
             {
-                Cat go = Instantiate(_catUnit);
+                Player go = Instantiate(_catUnit);
                 go.ControlAnimationState(1);
                 return go;
             }
@@ -65,7 +65,7 @@ namespace _Scripts.Controllers
             private void OnTakeFromPool(GameObject player)
             {
                 player.SetActive(true);
-                player.GetComponent<Cat>().ControlAnimationState(1);
+                player.GetComponent<Player>().ControlAnimationState(1);
             }
 
             private void OnReturnToPool(GameObject player)

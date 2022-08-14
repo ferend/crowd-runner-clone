@@ -12,7 +12,7 @@ public class Boss : MonoBehaviour
     public Transform hitPoint;
     private float forceMultiplier;
 
-    public CatBall catBall;
+    public PlayerBall catBall;
 
     private void Start()
     {
@@ -43,7 +43,7 @@ public class Boss : MonoBehaviour
             {
                 AudioManager.Instance.PlayOneShot(AudioManager.Instance.catBallRollSound);
                 mainCamera.GetComponent<CameraController>().offset = new Vector3(0, 11, -5);
-                catBall.EjectCatBall(forceMultiplier,hitPoint);
+                catBall.EjectPlayerBall(forceMultiplier,hitPoint);
             });
             
         //TODO : add pfx timers here.

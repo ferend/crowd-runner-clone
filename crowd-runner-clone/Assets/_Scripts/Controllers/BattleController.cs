@@ -45,7 +45,7 @@ namespace _Scripts.Controllers
 
         public void Battle()
         {
-            cameraTransform.DOMove(new Vector3(9F, 9F, 100F), 1).OnComplete(OpenBattleScene);
+            cameraTransform.DOMove(new Vector3(9F, 9F, 110F), 1).OnComplete(OpenBattleScene);
             cameraTransform.DORotate(new Vector3(25, -50, 0), 0.5F);
         }
 

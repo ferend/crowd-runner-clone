@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
-public class CatBall : MonoBehaviour
+public class PlayerBall : MonoBehaviour
 {
     void Start()
     {
@@ -20,10 +20,10 @@ public class CatBall : MonoBehaviour
         DOTween.Kill(2);
     }
 
-    public void EjectCatBall(float forceMultiplier, Transform hitPoint)
+    public void EjectPlayerBall(float forceMultiplier, Transform hitPoint)
     {
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX;
-        this.GetComponent<Rigidbody>().AddForceAtPosition(transform.forward.normalized * forceMultiplier * 10 ,
+        this.GetComponent<Rigidbody>().AddForceAtPosition(transform.forward.normalized * 5 * forceMultiplier  ,
             hitPoint.position, ForceMode.Impulse);
     }
 }

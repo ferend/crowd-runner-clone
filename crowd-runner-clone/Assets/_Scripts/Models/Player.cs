@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace _Scripts.Models
 {
-    public class Cat : MonoBehaviour
+    public class Player : MonoBehaviour
     {
         private Animator _catAnimator;
 

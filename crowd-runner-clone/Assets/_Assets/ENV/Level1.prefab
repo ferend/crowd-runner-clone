@@ -599,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4013003253046564111, guid: d898d5a6f76054c33be3208df0cce50f, type: 3}
       propertyPath: multiplyAmount
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4013003253046564111, guid: d898d5a6f76054c33be3208df0cce50f, type: 3}
       propertyPath: neighbourCorridorCollider

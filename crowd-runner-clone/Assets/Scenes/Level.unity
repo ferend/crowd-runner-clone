@@ -799,18 +799,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7750436049884927593, guid: 82b38c9d614534439a2a2e454886232b, type: 3}
-      propertyPath: editorTest
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7750436049884927595, guid: 82b38c9d614534439a2a2e454886232b, type: 3}
       propertyPath: boss
       value: 
       objectReference: {fileID: 1176471174}
-    - target: {fileID: 7750436049884927595, guid: 82b38c9d614534439a2a2e454886232b, type: 3}
-      propertyPath: _catUnit
-      value: 
-      objectReference: {fileID: -6125665025104561649, guid: e7ae3c5c7da8c4dadbafbabb187578c4, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82b38c9d614534439a2a2e454886232b, type: 3}
 --- !u!114 &1598587191 stripped
@@ -1213,10 +1205,6 @@ PrefabInstance:
     - target: {fileID: 1243796380621579583, guid: 11f8d36d65d364e3294a25ccb3d6ab07, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806823413336573984, guid: 11f8d36d65d364e3294a25ccb3d6ab07, type: 3}
-      propertyPath: multiplyAmount
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11f8d36d65d364e3294a25ccb3d6ab07, type: 3}

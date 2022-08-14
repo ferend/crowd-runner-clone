@@ -95,7 +95,7 @@ namespace _Scripts.Core
         {
             for (int i = 1; i < player.transform.childCount ; i++)
             {
-                player.transform.GetChild(i).GetComponent<Cat>().ControlAnimationState(0);
+                player.transform.GetChild(i).GetComponent<Player>().ControlAnimationState(0);
             }
             player.GetComponent<ArmyMovementController>().isGamePaused = true;
         }
@@ -104,7 +104,7 @@ namespace _Scripts.Core
         {
             for (int i = 1; i < player.transform.childCount ; i++)
             {
-                player.transform.GetChild(i).GetComponent<Cat>().ControlAnimationState(1);
+                player.transform.GetChild(i).GetComponent<Player>().ControlAnimationState(1);
             }
             player.GetComponent<ArmyMovementController>().isGamePaused = false;
         }
