@@ -10,6 +10,10 @@ namespace _Scripts.Utilities
         public static float CLAMP_MODIFIER = 2.2F;
         public static float MAX_SCORE = 100F;
         
+        
+        public static float LERP_COEF = 0.3F;
+        public static float SWERVE_SPEED = 1250F;
+        
         public enum CorridorTypes
         {
             Increase,

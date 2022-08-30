@@ -8,6 +8,7 @@ namespace _Scripts.Models
     public class Cat : MonoBehaviour
     {
         private Animator _catAnimator;
+        public Transform rotationTarget;
 
         private void Awake()
         {
